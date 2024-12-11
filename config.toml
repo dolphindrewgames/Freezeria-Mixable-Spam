@@ -1,0 +1,26 @@
+# config.toml
+# Configuration file for freezeria_mixable_spam.py.
+
+# Titles to search for when finding the flash player window.
+WINDOW_TITLES = [
+    'Flash Player',
+    'Ruffle',
+]
+
+# The number of times to pour a mixable.
+NUM_MIXABLES = 10
+
+# The delay, in seconds, between clicks.
+CLICK_DELAY = 0.0167
+
+# Mixables to add to the sundae.
+# Set a mixable to 'true' to allow it, or 'false' to disallow it.
+[ALLOW_MIXABLES]
+"Nutty Butter Cups" = true
+"Strawberries"      = true
+"Pineapple"         = false
+"Blueberries"       = true
+"Marshmallows"      = false
+"Yum n' Ms"         = false
+"Creameo Bits"      = false
+"Cookie Dough"      = false
